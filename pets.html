@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href=styles.css>
+    <link rel='stylesheet' href=pets.css>
+    <script src='header.js' type ='text/javascript' defer></script>
+    <script src='footer.js' type ='text/javascript' defer></script>
+    <script src='resources.js' type ='text/javascript' defer></script>
+    <script src='adoption.js' type ='text/javascript' defer></script>
+    <title>Pet Directory - Paradigm Pet Professionals</title>
+</head>
+<body>
+    <header-component></header-component>
+    
+    <ul id='breadcrumbTrail'>
+        <li class='breadcrumb_item'>
+            <a href='index.html' class='breadcrumb_link'>Home</a>
+        </li>
+        <li class='breadcrumb_item'>
+            <a href='pets.html' id='active' class='breadcrumb_link'>Pets</a>
+        </li>
+    </ul>
+    
+    <main>
+        <div id='left'></div>
+        <div id='content'>
+            <div id='pets'>
+                <div>
+                    <h1>Cats</h1>
+                    <a href='cats.html'><img src='images/maddie.jpg' title='Cats'></a>
+                </div>
+                <div>
+                    <h1>Dogs</h1>
+                    <a href='dogs.html'><img src='images/chip.jpg' title='Dogs'></a>
+                </div>
+                <div>
+                    <h1>Fish</h1>
+                    <a href='fish.html'><img src='images/bigEyeCrewFish.jpg' title='Fish'></a>
+                </div>
+            </div>
+            
+            <resource-component></resource-component>
+            
+            <adoption-component></adoption-component>
+        </div>
+        <div id='right'></div>
+    </main>
+
+    <footer-component></footer-component>
+</body>
+</html>

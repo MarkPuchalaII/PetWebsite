@@ -1,0 +1,18 @@
+#pets {
+    display: flex;
+    gap: 2rem;
+}
+
+#pets div a {
+    display: block;
+    height: 10.75rem;
+}
+
+h1 {
+    text-align: center;
+    margin: 0.5rem;
+}
+
+img {
+    border-radius: 0.5rem;
+}

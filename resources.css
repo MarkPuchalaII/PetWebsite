@@ -1,0 +1,16 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#age {
+    width: 3rem;
+}
+
+form div {
+    display: flex;
+}
+form div label {
+    min-width: 75px;
+}

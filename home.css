@@ -1,0 +1,33 @@
+#pets {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+
+    padding: 1rem 0 1rem 0;
+    background: var(--lightGrey);
+}
+
+.petLink{
+    display: flex;
+    place-items: center;
+
+    height: 5rem;
+    text-decoration: none;
+    background: var(--darkBlue);
+    color: white;
+    border-radius: 1rem;
+}
+
+.petLink * {
+    padding-left: 1rem;
+    font-size: 2rem;
+}
+
+.petLink img {
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+#breadcrumbTrail {
+    padding: 1.25em;
+}
